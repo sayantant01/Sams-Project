@@ -1,0 +1,18 @@
+.navbar {
+    background: black;
+  }
+  
+  .navbar-brand {
+    color: yellow;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cline stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' x1='3' y1='12' x2='27' y2='12'/%3E%3Cline stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' x1='3' y1='18' x2='27' y2='18'/%3E%3Cline stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' x1='3' y1='24' x2='27' y2='24'/%3E%3C/svg%3E");
+  }
+  
+  

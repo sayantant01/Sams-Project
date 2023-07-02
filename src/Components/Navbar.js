@@ -6,6 +6,7 @@ import Menus from './Menus';
 //import AboutPage from './AboutPage';
 //import ContactPage from './ContactPage';
 import Reservation from './Reservation';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
