@@ -8,7 +8,7 @@ import Login from "./Login";
 
 // <Route path="/Login" component={Login} />
 const Register = () => {
-  const [user, setUser] = useState({ name: "", email: "",phone:"786876", password: "" });
+  const [user, setUser] = useState({ name: "", email: "",phone:"", password: "" });
   const navigate = useNavigate();
 
   const handleInputChange = (event) => {
@@ -69,6 +69,17 @@ const Register = () => {
           />
         </div>
         <div className="form-group">
+          <label htmlFor="phoneNumber">Phone</label>
+          <input
+            type="text"
+            className="form-control"
+            id="phoneNumber"
+            name="phone"
+            value={user.phone}
+            onChange={handleInputChange}
+          />
+        </div>
+        <div className="form-group">
           <label htmlFor="userPassword">Password</label>
           <input
             type="password"
@@ -80,7 +91,7 @@ const Register = () => {
           />
         </div>
         <button type="submit" className="btn btn-primary mr-2">
-          Register
+          Submit
         </button>
         <p className="mt-2">
           Already have an account? <Link to="/Login">Login</Link>

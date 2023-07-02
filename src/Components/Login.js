@@ -72,7 +72,7 @@ const Login = () => {
           />
         </div>
         <button type="submit" className="btn btn-primary">
-          Login 
+          Submit 
         </button>
         <p className="mt-2">
           Don't have an account? <Link to="/">Register</Link>
